@@ -1,9 +1,9 @@
 #lang racket
 (require compatibility/defmacro)
 
-; +-----------------------+
-; | LET S VICE PROMENNYMI |
-; +-----------------------+
+; +-------+
+; |  LET  |
+; +-------+
 
 ; example usage:
 ;   (my-let
@@ -219,7 +219,7 @@
 
 
 ; +---------+
-; |  TESTY  |
+; |  TESTS  |
 ; +---------+
 
 ; return true if element is in list, otherwise return false - funtion I want to test
@@ -292,11 +292,11 @@
 ;   )
 ;)
 
-; should print rovno
+; should print equal
 ;(my-cond
-;     [ (> 1 2) (println "vetsi") ]
-;     [ (< 1 0) (println "mensi") ]
-;     [ (= 1 1) (println "rovno") ]
+;     [ (> 1 2) (println "greater") ]
+;     [ (< 1 0) (println "lower") ]
+;     [ (= 1 1) (println "equal") ]
 ;)
 ;(printf "\n")
 
@@ -304,7 +304,7 @@
 ; ahoj 3
 ; ahoj 6
 ; ahoj 9
-;(my-foreach i '(1 2 3) (printf "ahoj ~s\n" (+ i i i)))
+;(my-foreach i '(1 2 3) (printf "hello ~s\n" (+ i i i)))
 ;(printf "\n")
 
 ; should print
