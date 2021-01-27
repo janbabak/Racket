@@ -1,6 +1,6 @@
-# Macros in rocket
+# Macros in Racket
 
-This is semestral work from programming paradigms. I had to implement several macros, which make coding in rocket easier.
+This is semestral work from programming paradigms. I had to implement several macros, which make coding in Racket easier.
 
 ### minimal requirements:
 
@@ -18,7 +18,7 @@ This is semestral work from programming paradigms. I had to implement several ma
 
 ##### How to run:
 
-- download IDE for rocket called [DrRocket](https://racket-lang.org/)
+- download IDE for rocket called [DrRacket](https://racket-lang.org/)
 
 ##### my-let:
 
